@@ -1,4 +1,4 @@
-import games.guess_the_number as gtn
+from utility.console import Console
+from utility.color import Colors
 
-game = gtn.GuessTheNumber()
-game.Play()
+Console.ColorPrint("({R}, {G}, {B})", [Colors.Red, Colors.Green, Colors.Blue])
