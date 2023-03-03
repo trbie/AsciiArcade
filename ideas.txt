@@ -1,0 +1,8 @@
+2048
+tictactoe
+blackjack
+poker
+hangman
+snake
+tetris
+pong
