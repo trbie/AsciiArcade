@@ -6,3 +6,7 @@ hangman
 snake
 tetris
 pong
+connect 4
+chess
+checkers
+solitaire
