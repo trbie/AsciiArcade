@@ -1,5 +1,5 @@
-import os
 import random
+from utilities.console import Console
 
 class GuessTheNumber:
     Answer:int
@@ -23,7 +23,7 @@ class GuessTheNumber:
         self.Win = False
         self.End = False
 
-        os.system("cls")
+        Console.Clear()
 
 
     def Play(self) -> None:
@@ -71,6 +71,8 @@ class GuessTheNumber:
             print("You won, my number was", self.Answer)
         else:
             print("Nice try, but my number was", self.Answer)
+
+        Console.Pause()
 
 
 
